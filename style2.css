@@ -1,0 +1,119 @@
+
+
+@media screen and (max-width: 600px) {
+    .container1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+        width: 100%;
+        
+    }
+
+
+    .container1 h4 {
+        font-size: 15px;
+    }
+
+    .container1 p {
+        font-size: 8px;
+    }
+
+    
+    .navbar,
+    #search,
+    .Admirra-John {
+        display: none;
+
+    
+    }
+
+    .menu-toggle {
+        display: block;
+      }
+
+      .container3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container4{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0px;
+      }
+
+      .sous-section1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+      }
+
+      .available-position,
+      .job-open,
+      .new-employees {
+        width: 100%;
+        padding: 0px;
+      }
+
+      .sous-section2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+        
+      }
+
+      .sous-section2-1,
+      .sous-section2-2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px;
+      }
+       
+
+      .sous-section3{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+      }
+
+      .outing,
+      .meeting {
+        padding: 0;
+      }
+
+      .container5{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+      }
+
+      .container6 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+      }
+
+      .today-you{
+        display: flex;
+        flex-direction: column;
+      }
+}

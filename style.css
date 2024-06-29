@@ -16,20 +16,26 @@ body {
     width: 100vh;
     display: flex;
     flex-direction: column;
+    
 
     flex-basis: 10%;
     padding: 30px;
+    padding-top: 0px;
     background-color: #ccc;
 
 
 }
 
 .navbar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     
 
     width: Fixed (242px)px;
 height: Fixed (900px)px;
-padding: 20px 0px 272px 0px;
+padding: 0px 0px 272px 0px;
 gap: 39px;
 opacity: 0px;
 
@@ -49,7 +55,13 @@ text-align: left;
 }
 
 
-
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
 
 
 
@@ -88,8 +100,7 @@ opacity: 0px;
 .logo{
     width: Fixed (128px)px;
 height: Fixed (62px)px;
-padding: 10px 0px 0px 0px;
-gap: 10px;
+padding: 0px 0px 0px 0px;
 opacity: 0px;
 
 }
@@ -141,7 +152,9 @@ opacity: 0px;
 }
 
 .notifications-icon{
+    display: flex;
     font-size : 14px;
+    gap: 20px;
 }
 
 
@@ -173,7 +186,7 @@ border: 1px solid #E0E0E0
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
+    gap: 20px;
 
 
 }
@@ -194,8 +207,7 @@ border: 1px solid #E0E0E0
 .container4{
     display: flex;
     flex-direction: column;
-    flex-basis: 70%;
-    gap: 30px;
+    flex-basis: 80%;
     margin: 15px;
     width: 100vh;
 
@@ -341,7 +353,6 @@ text-align: left;
     display: flex;
     justify-content: space-between;
     
-    height: 100%;
     width: 100%;
 
     width: Fixed (312px)px;
@@ -358,12 +369,15 @@ text-align: left;
 
 }
 
+.sous-section2 img{
+    height: 100px;
+}
+
 
 .sous-section2-2{
     display: flex;
     justify-content: space-between;
 
-    height: 100%;
     width: 100%;
 
 
@@ -502,7 +516,7 @@ border: 1px solid #E0E0E0
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    flex-basis: 30%;
+    flex-basis: 20%;
     gap: 15px;
     margin: 15px;
     width: 100vh;
